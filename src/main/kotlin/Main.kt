@@ -8,7 +8,7 @@ fun main(args: Array<String>) {
     embeddedServer(Netty, port = 8080) {
         routing {
             get("/") {
-                call.respondText("Hola Shante!")
+                call.respondText("Hola!")
             }
         }
     }.start(wait = true)
